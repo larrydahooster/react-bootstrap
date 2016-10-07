@@ -1,10 +1,10 @@
 {
-  "name": "react-bootstrap",
-  "version": "0.30.5",
+  "name": "@larrydahooster/react-bootstrap-fork",
+  "version": "0.30.5-test",
   "description": "Bootstrap 3 components built with React",
   "repository": {
     "type": "git",
-    "url": "react-bootstrap/react-bootstrap"
+    "url": "larrydahooster/react-bootstrap"
   },
   "homepage": "https://react-bootstrap.github.io/",
   "scripts": {
@@ -129,7 +129,7 @@
     "warning": "^3.0.0"
   },
   "release-script": {
-    "bowerRepo": "git@github.com:react-bootstrap/react-bootstrap-bower.git",
-    "docsRepo": "git@github.com:react-bootstrap/react-bootstrap.github.io.git"
+    "bowerRepo": "git@github.com:larrydahooster/react-bootstrap-bower.git",
+    "docsRepo": "git@github.com:larrydahooster/react-bootstrap.github.io.git"
   }
 }
