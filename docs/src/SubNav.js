@@ -52,10 +52,10 @@ class SubNav extends React.Component {
       return true;
     }
 
-    if (props.children) {
-      return ValidComponentChildren.some(props.children, child => (
-        this.isActive(child, activeKey, activeHref)
-      ));
+    if (ValidComponentChildren.some(props.children, (child) => (
+      this.isActive(child, activeKey, activeHref)
+    ))) {
+      return true;
     }
 
     return props.active;
@@ -71,7 +71,7 @@ class SubNav extends React.Component {
       className,
       style,
       children,
-      ...props,
+      ...props
     } = this.props;
 
     delete props.active; // Accessed via this.isActive().
